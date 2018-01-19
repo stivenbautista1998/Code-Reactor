@@ -73,23 +73,35 @@ Single-colored icons can be modified like so:
   width: 3em;
   height: 3em;
   margin: 1em;
-  color: #777;
+  transition: .5s;
 }
 
-.icon-facebook:hover{
+.icon-facebook{
   color: #3B5998;
 }
-.icon-instagram:hover{
+.icon-instagram{
   color: #E4405f;
 }
 
-.icon-twitter:hover{
+.icon-twitter{
   color: #1DA1F2;
 }
 
-.icon-youtube:hover{
+.icon-youtube{
   color: #CD201F;
 }
+
+.icon-facebook:hover, .icon-instagram:hover, .icon-twitter:hover, .icon-youtube:hover{
+  transform: scale(1.3);
+  color: #777;
+}
+
+.icon-flecha{
+  width: 1em;
+  height: 1em;
+}
+
+
 
 
 
