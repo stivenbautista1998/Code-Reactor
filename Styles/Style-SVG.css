@@ -1,0 +1,135 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-library {
+  width: 2em;
+  height: 2em;
+  margin-top: .5em;
+}
+
+.icon-home{
+  margin-right: .2em;
+}
+
+.icon-group {
+  width: 1.0714285714285714em;
+  margin-right: .2em;
+}
+
+.icon-address-book {
+  width: 0.9285714285714285em;
+  margin-right: .2em;
+}
+
+.icon-code{
+  margin-right: .2em;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: bottom;
+}
+
+.icon-plus-circle {
+  width: 0.8571428571428571em;
+  margin-right: .2em;
+}
+
+
+.html-icon, .ruby-icon, .css-icon, .js-icon, .android-icon, .icon-php, .icon-python, .icon-ruby-on-rails {
+  width: 2.3em;
+  height: 2.3em;
+  margin: .7em;
+}
+
+.icon-ruby-on-rails{
+  color: #C62C25;
+}
+
+.js-icon{
+  color: #5AC62A;
+}
+
+.icon-web{
+  background: #000;
+  border: 1px solid;
+  width: 3em;
+  height: 3em;
+}
+
+.icon-facebook, .icon-instagram, .icon-twitter, .icon-youtube{
+  width: 3em;
+  height: 3em;
+  margin: 1em;
+  color: #777;
+}
+
+.icon-facebook:hover{
+  color: #3B5998;
+}
+.icon-instagram:hover{
+  color: #E4405f;
+}
+
+.icon-twitter:hover{
+  color: #1DA1F2;
+}
+
+.icon-youtube:hover{
+  color: #CD201F;
+}
+
+
+
+
+.icon-pencil {
+  width: 0.8454285714285714em;
+}
+
+.icon-chevron-left {
+  width: 0.75em;
+}
+
+.icon-chevron-right {
+  width: 0.6785714285714285em;
+}
+
+.icon-calendar {
+  width: 0.9285714285714285em;
+}
+
+.icon-folder {
+  width: 0.9285714285714285em;
+}
+
+.icon-folder-open {
+  width: 1.0485714285714285em;
+}
+
+.icon-search {
+  width: 0.9285714285714285em;
+}
+
+.icon-chrome {
+  width: 1.054142857142857em;
+}
+
+.icon-firefox {
+  width: 0.9537142857142857em;
+}
+
+.icon-free-code-camp {
+  width: 1.2857142857142856em;
+}

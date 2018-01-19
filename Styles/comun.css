@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin');
+
+/* contenedor principal +++++++++++++++++++++++++++++++++*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana; 
+  background: url("../Images/fondo_2.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+h1.title-header{
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  margin: 0.5em 0em;
+}
+
+span.logo-left{
+  color: #294FFA;
+  text-shadow: 2px 2px #000;
+}
+
+span.logo-right{
+  color: #E2EB52;
+  text-shadow: 2px 2px #000;
+}
+
+/*+++++++++++++ Fin contenedor principal +++++++++++++++*/
+
+
+
+/* navegacion de la pagina  +++++++++++++++++++++++++++*/
+
+nav.main-nav-content{
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+nav.main-nav-content ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav.main-nav-content ul li{
+  display: inline-block;
+  margin: .7em 1.1em;
+}
+
+nav.main-nav-content ul li a{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav.main-nav-content ul li a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  transition: .5s;
+  transform: scale(1.2);
+}
+
+nav.main-nav-content ul li a.selected-item{
+  border-bottom: 5px solid #294FFA;
+  font-size: 25px;
+  padding: .6em;
+}
+
+/*++++++++++++ Fin de navegacion de la pagina ++++++++++++*/
+
+
+
+/* seccion del contenido principal +++++++++++++++++++++++*/
+
+div.information-section{
+  
+  width: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 3em;
+  font-family: Josefin;
+  font-weight: lighter;
+  font-style: italic;
+  position: relative;
+
+  text-align: center;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em; 
+  padding-bottom: .1em;
+}
+
+div.information-section p{
+  margin-top: 0.1em; 
+}
+
+section.section-one{
+  background: #E2EB52;
+}
+
+section.content-section{
+  padding: 1.5em;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+div.section-content-one{
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid;
+  padding: 3em;
+  overflow: hidden;
+}
+
+.image-content-one{
+  border: 1px solid;
+  float: left;
+}
+
+h2.title-content-one{
+  font-family: "Helvetica Neue";
+  font-size: 3.5em;
+  font-weight: medium;
+  color: #FFEE13;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.texto-content-one{
+  font-family: "Helvetica Neue";
+  font-size: 3em;
+  font-weight: lighter;
+  display: inline;
+  border: 1px solid;
+}
+
+
+.boton-design{
+  border: 1px solid;
+  padding: 2.5% 5%;
+  font-size: 2em;
+  text-decoration: none;
+  background: #777;
+  float: right;
+  left: 10%;
+}
+
+
+
+
+
+
+
+
+
+section.content-section p{
+  width: 70%;
+  margin: 0 auto;
+  font-family: Josefin;
+  font-size: 1.3em;
+  margin-bottom: 1em; 
+}
+
+section.content-section h2.title-section{
+  font-size: 2.5em;
+  font-family: Josefin;
+  font-weight: lighter;
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+/* Footer de la pagina web ++++++++++++++++++++++++++++++++*/
+
+footer.footer-content{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  margin: 1.5em 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
