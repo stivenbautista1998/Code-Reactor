@@ -101,6 +101,11 @@ Single-colored icons can be modified like so:
   height: 1em;
 }
 
+.icon-layout, .icon-design-web, .icon-Behavior, .icon-backend, .icon-responsive, .icon-SEO{
+  width: 5em;
+  height: 5em;
+  margin-bottom: .5em;
+}
 
 
 

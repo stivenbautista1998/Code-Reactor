@@ -102,21 +102,30 @@ div.information-section p{
   margin-top: 0.1em; 
 }
 
-section.section-one{
-  background: #E2EB52;
-}
-
-section.content-section{
+.content-section{
   padding: 1.5em;
   text-align: center;
   font-size: 30px;
 }
 
+.section-one{
+  background: #E2EB52;
+}
 
+.section-two{
+  background: #60ADFA;
+}
 
+.section-three{
+  background: #FFF;
+}
 
-
-
+.section-two p{
+  width: 70%;
+  margin: 0 auto;
+  font-family: Josefin;
+  font-size: 1.5em;
+}
 
 
 div.section-content-one{
@@ -129,7 +138,6 @@ div.section-content-one{
 .image-content-one{
   margin-right: 3%;
   float: left;
-  border: 1px solid;
   width: 57%;
 }
 
@@ -140,7 +148,7 @@ h2.title-content-one{
   color: #E2EB52;
   text-shadow: -3px -2px 4px #000;
   display: block;
-  border: 1px solid;
+  
 }
 
 .texto-content-one{
@@ -148,13 +156,11 @@ h2.title-content-one{
   font-size: 2.5em;
   font-weight: lighter;
   display: block;
-  border: 1px solid;
 }
 
 .content-text__section-one{
   float: left;
   width: 39%;
-  border: 1px solid red;
 }
 
 
@@ -162,12 +168,11 @@ a.boton-design{
   display: inline-block;
   float: left;
   margin: 1.2em 0;
-  padding: 2.5% 7%;
+  padding: 2.5% 5%;
   font-size: 2em;
   text-decoration: none;
-
+  width: 4.5em;
   background: #60ADFA;
-  transform-origin: left top;
   transition: .8s;
 }
 
@@ -186,11 +191,6 @@ a.boton-design:hover{
 }
 
 
-
-
-
-
-
 section.content-section p{
   width: 70%;
   margin: 0 auto;
@@ -205,6 +205,48 @@ section.content-section h2.title-section{
   font-weight: lighter;
 }
 
+section.section-group{
+  border: 1px solid;
+  background: #EDF0F4;
+  width: 25%;
+  padding: 2em;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 7px;
+  margin: .5em;
+}
+
+section.Maquet{
+  background: #07B269;
+}
+
+section.Design{
+  background: #A7A1A4;
+}
+
+section.Behavior{
+  background: #32E7CE;
+}
+
+section.backend{
+  background: #CA9C30;
+}
+
+section.responsive{
+  background: #E1FC32;
+}
+
+section.seo{
+  background: #067362;
+}
+
+section.section-group div.content-text__section-group{
+  text-align: center;
+}
+
+section.section-group h3{
+  font-size: 28px;
+}
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
