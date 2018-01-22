@@ -212,6 +212,7 @@ section.section-group{
   padding: 2em;
   font-size: 18px;
   display: inline-block;
+  vertical-align: top;
   border-radius: 5px;
   margin: .5em;
 }
