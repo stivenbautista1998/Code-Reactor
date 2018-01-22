@@ -212,20 +212,20 @@ section.section-group{
   padding: 2em;
   font-size: 18px;
   display: inline-block;
-  border-radius: 7px;
+  border-radius: 5px;
   margin: .5em;
 }
 
 section.Maquet{
-  background: #07B269;
+  background: #6B95F3;
 }
 
 section.Design{
-  background: #A7A1A4;
+  background: #3FE74F;
 }
 
 section.Behavior{
-  background: #32E7CE;
+  background: #F0496F;
 }
 
 section.backend{
@@ -237,7 +237,7 @@ section.responsive{
 }
 
 section.seo{
-  background: #067362;
+  background: #00C0A2;
 }
 
 section.section-group div.content-text__section-group{
